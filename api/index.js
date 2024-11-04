@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/", (req, res) => {
+app.get("/api/", (req, res) => {
   res.json({ network: 102, messaging: 0, jobs: 0, notifications: 12 });
 });
 
